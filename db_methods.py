@@ -1,7 +1,6 @@
 import sqlite3
 
 
-# Функцію я потім перероблю в класс як на занятті
 def get_db_data(sql_command):
     try:
         connection = sqlite3.connect('Dishes.db')
