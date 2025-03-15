@@ -15,8 +15,8 @@ All in order to add to the endpoints where it was possible to connect to the dat
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/OleksiiUzu/SecondHomework.git
-   cd SecondHomework
+   git clone https://github.com/OleksiiUzu/flask-api-homework-2-database.git
+   cd flask-api-homework-2-database
 2.(Optional) Create and activate a virtual environment:
   python -m venv venv
   source venv/bin/activate
