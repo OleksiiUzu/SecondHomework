@@ -1,12 +1,6 @@
 from flask import Flask
 from view import *
 
-"""
-Тут я намагався обробити лише GET запити
-У деяких ендпоінтів є темплейти
-З ендпоінтами сортування і пошуку поки проблемки
-"""
-
 app = Flask(__name__)
 
 app.add_url_rule('/', view_func=start_page)
